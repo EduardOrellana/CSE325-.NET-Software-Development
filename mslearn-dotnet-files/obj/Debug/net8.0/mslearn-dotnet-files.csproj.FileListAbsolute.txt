@@ -1,0 +1,15 @@
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/bin/Debug/net8.0/mslearn-dotnet-files
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/bin/Debug/net8.0/mslearn-dotnet-files.deps.json
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/bin/Debug/net8.0/mslearn-dotnet-files.runtimeconfig.json
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/bin/Debug/net8.0/mslearn-dotnet-files.dll
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/bin/Debug/net8.0/mslearn-dotnet-files.pdb
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/mslearn-dotnet-files.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/mslearn-dotnet-files.AssemblyInfoInputs.cache
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/mslearn-dotnet-files.AssemblyInfo.cs
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/mslearn-dotnet-files.csproj.CoreCompileInputs.cache
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/mslearn-dotnet-files.sourcelink.json
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/mslearn-dotnet-files.dll
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/refint/mslearn-dotnet-files.dll
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/mslearn-dotnet-files.pdb
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/mslearn-dotnet-files.genruntimeconfig.cache
+/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/Debug/net8.0/ref/mslearn-dotnet-files.dll
