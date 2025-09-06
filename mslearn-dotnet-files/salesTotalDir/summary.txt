@@ -1,0 +1,15 @@
+Sales Summary: 
+-----------------------------------------
+Total Sales: $2012.2
+
+
+Details:
+File stores, Total: $88.88
+File 204, Total: $88.88
+File 204, Total: $0
+File 203, Total: $99
+File 203, Total: $0
+File 202, Total: $1234.22
+File 202, Total: $0
+File 201, Total: $501.22
+File 201, Total: $0

@@ -1,36 +1,80 @@
-﻿using System.IO;
-using System.Collections.Generic;
-using System.Text.Json;
-using System.Diagnostics;
+﻿using Newtonsoft.Json;
 
-var salesFiles = Findf("stores");
-//Create file SalesSummary.txt
+var currentDirectory = Directory.GetCurrentDirectory();
+var storesDirectory = Path.Combine(currentDirectory, "stores");
 
-var summaryFile = Path.Combine(Directory.GetCurrentDirectory(), "SalesSummary.txt");
+var salesTotalDir = Path.Combine(currentDirectory, "salesTotalDir");
+Directory.CreateDirectory(salesTotalDir);
 
-//Start the report:
-File.WriteAllText(summaryFile, "Sales Summary Report\n====================\n");
+var salesFiles = FindFiles(storesDirectory);
 
-foreach (var file in salesFiles)
+var salesTotal = CalculateSalesTotal(salesFiles);
+
+File.AppendAllText(Path.Combine(salesTotalDir, "totals.txt"), $"{salesTotal}{Environment.NewLine}");
+
+//SummaryFile
+
+File.WriteAllText(Path.Combine(salesTotalDir, "summary.txt"),
+$@"Sales Summary: 
+-----------------------------------------
+Total Sales: ${salesTotal}{Environment.NewLine}
+
+Details:
+{CreateSummaryDetails(salesFiles)}
+");
+
+IEnumerable<string> FindFiles(string folderName)
 {
-    Console.WriteLine(file);
-}
-
-IEnumerable<string> Findf(string folderName)
-{
-    List<string> salesFilesFolders = new List<string>();
+    List<string> salesFiles = new List<string>();
 
     var foundFiles = Directory.EnumerateFiles(folderName, "*", SearchOption.AllDirectories);
 
     foreach (var file in foundFiles)
     {
-        Debug.WriteLine(file);
-
-        if (file.EndsWith("sales.json"))
+        var extension = Path.GetExtension(file);
+        if (extension == ".json")
         {
-            salesFilesFolders.Add(file);
+            salesFiles.Add(file);
         }
     }
 
-    return salesFilesFolders; // ✅ corregido
+    return salesFiles;
 }
+
+double CalculateSalesTotal(IEnumerable<string> salesFiles)
+{
+    double salesTotal = 0;
+
+    // Loop over each file path in salesFiles
+    foreach (var file in salesFiles)
+    {
+        // Read the contents of the file
+        string salesJson = File.ReadAllText(file);
+
+        // Parse the contents as JSON
+        SalesData? data = JsonConvert.DeserializeObject<SalesData?>(salesJson);
+
+        // Add the amount found in the Total field to the salesTotal variable
+        salesTotal += data?.Total ?? 0;
+    }
+
+    return salesTotal;
+}
+
+string CreateSummaryDetails(IEnumerable<string> salesFiles)
+{
+    var details = new List<string>();
+
+    foreach (var file in salesFiles)
+    {
+        string salesJson = File.ReadAllText(file);
+        SalesData? data = JsonConvert.DeserializeObject<SalesData?>(salesJson);
+        string parentFolder = Directory.GetParent(file)?.Name ?? "Unknown";
+        details.Add($"File {parentFolder}, Total: ${data?.Total ?? 0}");
+    }
+
+    return string.Join(Environment.NewLine, details);
+
+}
+
+record SalesData(double Total);
