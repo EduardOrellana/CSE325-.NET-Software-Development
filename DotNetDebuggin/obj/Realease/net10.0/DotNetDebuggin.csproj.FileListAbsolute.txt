@@ -1,0 +1,14 @@
+/Users/eduardorellana/Documents/DotNetDebuggin/bin/Realease/net10.0/DotNetDebuggin
+/Users/eduardorellana/Documents/DotNetDebuggin/bin/Realease/net10.0/DotNetDebuggin.deps.json
+/Users/eduardorellana/Documents/DotNetDebuggin/bin/Realease/net10.0/DotNetDebuggin.runtimeconfig.json
+/Users/eduardorellana/Documents/DotNetDebuggin/bin/Realease/net10.0/DotNetDebuggin.dll
+/Users/eduardorellana/Documents/DotNetDebuggin/bin/Realease/net10.0/DotNetDebuggin.pdb
+/Users/eduardorellana/Documents/DotNetDebuggin/obj/Realease/net10.0/DotNetDebuggin.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardorellana/Documents/DotNetDebuggin/obj/Realease/net10.0/DotNetDebuggin.AssemblyInfoInputs.cache
+/Users/eduardorellana/Documents/DotNetDebuggin/obj/Realease/net10.0/DotNetDebuggin.AssemblyInfo.cs
+/Users/eduardorellana/Documents/DotNetDebuggin/obj/Realease/net10.0/DotNetDebuggin.csproj.CoreCompileInputs.cache
+/Users/eduardorellana/Documents/DotNetDebuggin/obj/Realease/net10.0/DotNetDebuggin.dll
+/Users/eduardorellana/Documents/DotNetDebuggin/obj/Realease/net10.0/refint/DotNetDebuggin.dll
+/Users/eduardorellana/Documents/DotNetDebuggin/obj/Realease/net10.0/DotNetDebuggin.pdb
+/Users/eduardorellana/Documents/DotNetDebuggin/obj/Realease/net10.0/DotNetDebuggin.genruntimeconfig.cache
+/Users/eduardorellana/Documents/DotNetDebuggin/obj/Realease/net10.0/ref/DotNetDebuggin.dll
