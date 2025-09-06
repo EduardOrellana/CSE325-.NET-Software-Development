@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/mslearn-dotnet-files.csproj": {}
+    "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/mslearn-dotnet-files/mslearn-dotnet-files.csproj": {}
   },
   "projects": {
-    "/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/mslearn-dotnet-files.csproj": {
+    "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/mslearn-dotnet-files/mslearn-dotnet-files.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/mslearn-dotnet-files.csproj",
+        "projectUniqueName": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/mslearn-dotnet-files/mslearn-dotnet-files.csproj",
         "projectName": "mslearn-dotnet-files",
-        "projectPath": "/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/mslearn-dotnet-files.csproj",
+        "projectPath": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/mslearn-dotnet-files/mslearn-dotnet-files.csproj",
         "packagesPath": "/Users/eduardorellana/.nuget/packages/",
-        "outputPath": "/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/obj/",
+        "outputPath": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/mslearn-dotnet-files/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eduardorellana/.nuget/NuGet/NuGet.Config"

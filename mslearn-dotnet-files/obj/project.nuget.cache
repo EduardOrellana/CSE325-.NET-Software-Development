@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6IX/82/BULg=",
+  "dgSpecHash": "1+KBsfBGwFk=",
   "success": true,
-  "projectFilePath": "/Users/eduardorellana/Documents/WorkWithFilesDotNet/mslearn-dotnet-files/mslearn-dotnet-files.csproj",
+  "projectFilePath": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/mslearn-dotnet-files/mslearn-dotnet-files.csproj",
   "expectedPackageFiles": [
     "/Users/eduardorellana/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/eduardorellana/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eduardorellana/Documents/WebAPIDotNet/WebAPIDotNet.csproj": {}
+    "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/WebAPIDotNet/WebAPIDotNet.csproj": {}
   },
   "projects": {
-    "/Users/eduardorellana/Documents/WebAPIDotNet/WebAPIDotNet.csproj": {
+    "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/WebAPIDotNet/WebAPIDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eduardorellana/Documents/WebAPIDotNet/WebAPIDotNet.csproj",
+        "projectUniqueName": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/WebAPIDotNet/WebAPIDotNet.csproj",
         "projectName": "WebAPIDotNet",
-        "projectPath": "/Users/eduardorellana/Documents/WebAPIDotNet/WebAPIDotNet.csproj",
+        "projectPath": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/WebAPIDotNet/WebAPIDotNet.csproj",
         "packagesPath": "/Users/eduardorellana/.nuget/packages/",
-        "outputPath": "/Users/eduardorellana/Documents/WebAPIDotNet/obj/",
+        "outputPath": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/WebAPIDotNet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eduardorellana/.nuget/NuGet/NuGet.Config"

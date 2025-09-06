@@ -1,33 +1,36 @@
 ﻿using System.IO;
 using System.Collections.Generic;
+using System.Text.Json;
+using System.Diagnostics;
 
-var salesFiles = FindFiles("stores");
+var salesFiles = Findf("stores");
+//Create file SalesSummary.txt
+
+var summaryFile = Path.Combine(Directory.GetCurrentDirectory(), "SalesSummary.txt");
+
+//Start the report:
+File.WriteAllText(summaryFile, "Sales Summary Report\n====================\n");
 
 foreach (var file in salesFiles)
 {
     Console.WriteLine(file);
 }
 
-IEnumerable<string> FindFiles(string folderName)
+IEnumerable<string> Findf(string folderName)
 {
-    List<string> salesFiles = new List<string>();
+    List<string> salesFilesFolders = new List<string>();
 
     var foundFiles = Directory.EnumerateFiles(folderName, "*", SearchOption.AllDirectories);
 
     foreach (var file in foundFiles)
     {
-        // The file name will contain the full path, so only check the end of it
+        Debug.WriteLine(file);
+
         if (file.EndsWith("sales.json"))
         {
-            salesFiles.Add(file);
+            salesFilesFolders.Add(file);
         }
     }
 
-    return salesFiles;
+    return salesFilesFolders; // ✅ corregido
 }
-
-Console.WriteLine(Directory.GetCurrentDirectory());
-
-string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-
-Console.WriteLine(docPath);
