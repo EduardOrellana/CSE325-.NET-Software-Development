@@ -1,0 +1,52 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@* <MyButton OnClick="IncrementCount" class="btn btn-success">My Custom Button</MyButton> *@
+
+<div class="mt-3">
+    <input @bind="text" @bind:event="oninput" @bind:after="Search" />
+    <button @onclick="ClearOptions">Clear!</button>
+    <p>@text</p>
+    <p>@searchResult</p>
+
+</div>
+@* 
+<div style="background-color:lightblue" @onmouseover="OnMouseOver" @onmouseout="OnMouseOut">
+    @divText
+</div> *@
+
+@code {
+    private int currentCount = 0;
+    string text = "";
+    string searchResult = "";
+
+    private void IncrementCount(MouseEventArgs e)
+    {
+        currentCount++;
+    }
+    private void ClearOptions(MouseEventArgs e)
+    {
+        text = "";
+        searchResult = "";
+    }
+    private void OnInput(ChangeEventArgs e)
+    {
+        text = (string)e.Value!;
+    }
+
+    async Task Search()
+    {
+        searchResult = "Searching...";
+        await Task.Delay(3000);
+        searchResult = $"Found {Random.Shared.Next(1, 10000)} results";
+    }
+
+}

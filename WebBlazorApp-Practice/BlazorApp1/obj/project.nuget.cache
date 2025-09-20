@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GkQOn6Bec9s=",
+  "success": true,
+  "projectFilePath": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/WebBlazorApp-Practice/BlazorApp1/BlazorApp1.csproj",
+  "expectedPackageFiles": [
+    "/Users/eduardorellana/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.0-preview.5.25277.114/microsoft.aspnetcore.app.internal.assets.10.0.0-preview.5.25277.114.nupkg.sha512"
+  ],
+  "logs": []
+}
