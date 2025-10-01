@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2VuRI6WzRxs=",
+  "success": true,
+  "projectFilePath": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/ConnectFour2/ConnectFour2/ConnectFour2.csproj",
+  "expectedPackageFiles": [
+    "/Users/eduardorellana/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.0-preview.5.25277.114/microsoft.aspnetcore.app.internal.assets.10.0.0-preview.5.25277.114.nupkg.sha512"
+  ],
+  "logs": []
+}

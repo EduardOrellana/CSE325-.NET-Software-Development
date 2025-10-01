@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MyBlazorApp/1.0.0": {
+        "dependencies": {
+          "My.FirstClassLibrary": "0.1.0"
+        },
+        "runtime": {
+          "MyBlazorApp.dll": {}
+        }
+      },
+      "My.FirstClassLibrary/0.1.0": {
+        "runtime": {
+          "lib/net8.0/FirstClassLibrary.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyBlazorApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "My.FirstClassLibrary/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xD8QryU9hqfK0tgAQFYxgW7v3JXAObuoF2eVYRUn+4CT52qMnWMLlmIDuQcuoakjL4v91MT15wO9xbShJ6Pp3g==",
+      "path": "my.firstclasslibrary/0.1.0",
+      "hashPath": "my.firstclasslibrary.0.1.0.nupkg.sha512"
+    }
+  }
+}

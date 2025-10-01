@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>My.FirstClassLibrary</id>
+    <version>0.1.0</version>
+    <authors>Erick Orellana</authors>
+    <description>This is a Razor component library with a cool modal window component.</description>
+    <repository type="git" commit="1708a2c8cc2aaa7c576e0808b534f6b5339ce7b8" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.18" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/FirstClassLibrary/bin/Release/net8.0/FirstClassLibrary.dll" target="lib/net8.0/FirstClassLibrary.dll" />
+    <file src="/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/FirstClassLibrary/obj/Release/net8.0/scopedcss/projectbundle/My.FirstClassLibrary.bundle.scp.css" target="staticwebassets/My.FirstClassLibrary.wvx8cfb7m0.bundle.scp.css" />
+    <file src="/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/FirstClassLibrary/wwwroot/background.png" target="staticwebassets/background.png" />
+    <file src="/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/FirstClassLibrary/wwwroot/exampleJsInterop.js" target="staticwebassets/exampleJsInterop.js" />
+    <file src="/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/FirstClassLibrary/obj/Release/net8.0/staticwebassets/msbuild.My.FirstClassLibrary.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" target="build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+    <file src="/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/FirstClassLibrary/obj/Release/net8.0/staticwebassets/msbuild.My.FirstClassLibrary.Microsoft.AspNetCore.StaticWebAssets.props" target="build/Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/FirstClassLibrary/obj/Release/net8.0/staticwebassets/msbuild.build.My.FirstClassLibrary.props" target="build/My.FirstClassLibrary.props" />
+    <file src="/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/FirstClassLibrary/obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.My.FirstClassLibrary.props" target="buildMultiTargeting/My.FirstClassLibrary.props" />
+    <file src="/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/FirstClassLibrary/obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.My.FirstClassLibrary.props" target="buildTransitive/My.FirstClassLibrary.props" />
+  </files>
+</package>

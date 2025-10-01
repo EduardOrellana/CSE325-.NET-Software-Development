@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mP7p+X2gPpU=",
+  "success": true,
+  "projectFilePath": "/Users/eduardorellana/Documents/CSE325-.NET-Software-Development/MyBlazorApp/MyBlazorApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/eduardorellana/.nuget/packages/my.firstclasslibrary/0.1.0/my.firstclasslibrary.0.1.0.nupkg.sha512",
+    "/Users/eduardorellana/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/eduardorellana/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/eduardorellana/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.16/microsoft.netcore.app.host.osx-arm64.8.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
