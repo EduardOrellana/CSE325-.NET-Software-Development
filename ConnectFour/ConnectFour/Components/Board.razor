@@ -1,6 +1,7 @@
 @inject GameState State
 @using System.Drawing
 
+
 <HeadContent>
     <style>
         :root {
@@ -18,6 +19,11 @@
 </HeadContent>
 
 <h3>Board Game</h3>
+<input type="text" placeholder="Player 1 Name" @bind="playName1" @bind:event="oninput" />
+<input type="text" placeholder="Player 2 Name" @bind="playName2" @bind:event="oninput" />
+<p>Player 1: @playName1</p>
+<p>Player 2: @playName2</p>
+
 <article>
     @winnerMessage <button style="@ResetStyle" @onclick="ResetGame">Reset the game</button>
     <br />
@@ -61,7 +67,8 @@
 
     private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
     private string ResetStyle => (winnerMessage == string.Empty) ? "display: none;" : "";
-
+    private string playName1 = "Player 1";
+    private string playName2 = "Player 2";
     protected override void OnInitialized()
     {
         State.ResetBoard();
@@ -84,8 +91,8 @@
 
         winnerMessage = State.CheckForWin() switch
         {
-            GameState.WinState.Player1_Wins => "Player 1 Wins!",
-            GameState.WinState.Player2_Wins => "Player 2 Wins!",
+            GameState.WinState.Player1_Wins => $"{playName1} Wins!",
+            GameState.WinState.Player2_Wins => $"{playName2} Wins!",
             GameState.WinState.Tie => "It's a tie!",
             _ => ""
         };
